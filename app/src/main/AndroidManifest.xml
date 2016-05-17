@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.danboru.belajarjepang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Umum" />
+        <activity android:name=".Salam" />
+        <activity android:name=".Perasaan" />
+        <activity android:name=".Darurat" />
+        <activity android:name=".Kesehatan" />
+        <activity android:name=".Hobi" />
+        <activity android:name=".Tanggal" />
+        <activity android:name=".Angka" />
+        <activity android:name=".Hewan" />
+        <activity android:name=".Waktu" />
+        <activity android:name=".Cuaca" />
+        <activity android:name=".Buah" />
+        <activity android:name=".Pelajaran" />
+        <activity android:name=".Pekerjaan" />
+        <activity android:name=".Warna" />
+        <activity android:name=".Tempat" />
+        <activity android:name=".Arah" />
+        <activity android:name=".Berkendara" />
+        <activity android:name=".Akomodasi" />
+        <activity android:name=".Tamasya" />
+        <activity android:name=".Transportasi" />
+        <activity android:name=".Makanan"></activity>
+    </application>
+
+</manifest>

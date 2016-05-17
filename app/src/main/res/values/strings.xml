@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Belajar Jepang</string>
+    <string name="title_activity_makan">Makan</string>
+
+    <string-array name="daftar_menu">
+
+        <item>Umum</item>
+        <item>Salam</item>
+        <item>Perasaan</item>
+        <item>Makanan</item>
+        <item>Darurat</item>
+        <item>Kesehatan</item>
+        <item>Belanja</item>
+        <item>Hobi</item>
+        <item>Tanggal</item>
+        <item>Angka</item>
+        <item>Hewan</item>
+        <item>Waktu</item>
+        <item>Cuaca</item>
+        <item>Buah</item>
+        <item>Pelajaran</item>
+        <item>Pekerjaan</item>
+        <item>Warna</item>
+        <item>Tempat</item>
+        <item>Arah</item>
+        <item>Akomodasi</item>
+        <item>Tamasya</item>
+        <item>Transportasi</item>
+
+    </string-array>
+
+    <string-array name="string_akomodasi">
+
+        <item>Test</item>
+
+    </string-array>
+
+
+</resources>
