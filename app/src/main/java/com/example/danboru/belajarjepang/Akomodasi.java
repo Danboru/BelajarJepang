@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 public class Akomodasi extends AppCompatActivity {
@@ -42,9 +43,11 @@ public class Akomodasi extends AppCompatActivity {
                     case 1 : {
 
 
+                        Toast.makeText(Akomodasi.this, "Hello", Toast.LENGTH_SHORT).show();
 
 
                     }
+
 
 
                 }
