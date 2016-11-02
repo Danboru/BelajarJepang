@@ -1,5 +1,9 @@
 package com.example.danboru.belajarjepang;
 
+import android.animation.ValueAnimator;
+import android.app.Activity;
+import android.media.MediaPlayer;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +13,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 
-public class Akomodasi extends AppCompatActivity {
+public class Akomodasi extends Activity {
 
     ListView listnya;
     ArrayAdapter<String> adapternya;
@@ -36,8 +40,12 @@ public class Akomodasi extends AppCompatActivity {
 
                     case 0 : {
 
+                        MediaPlayer play;
 
+                        play = MediaPlayer.create(Akomodasi.this, R.raw.calestia);
+                        play.start();
 
+                        break;
                     }
 
                     case 1 : {
@@ -45,7 +53,7 @@ public class Akomodasi extends AppCompatActivity {
 
                         Toast.makeText(Akomodasi.this, "Hello", Toast.LENGTH_SHORT).show();
 
-
+                        break;
                     }
 
 
